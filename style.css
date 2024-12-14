@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #70c5ce; /* Sky-blue background */
+  overflow: hidden;
+}
+
+#game-canvas {
+  display: block;
+  background-color: #70c5ce; /* Matches body color for seamless integration */
+  border: 2px solid #000;
+  background-image: url('BG.png');
+  background-size: cover;
+}
+
+  
